@@ -1,0 +1,10 @@
+
+
+      <img class="card-img-top" src={{baseUrl}}{{movie.poster_path}} alt="Movie Image">
+      <div class="card-body">
+        <h5 class="card-title">{{movie.title}}</h5>
+        <p class="card-text">{{movie.overview}}</p>
+      </div>
+      <div class="card-footer">
+          <button type="button" (click) = "deleteFav()" class="btn btn-light">remove</button>
+      </div>
